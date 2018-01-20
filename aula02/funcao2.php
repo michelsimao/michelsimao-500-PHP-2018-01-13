@@ -62,3 +62,16 @@ function habilitacao($array){
 
 $e = ["nome" => "Claudia", "idade" => 33, "temHabilitacao" => false];
 echo habilitacao($e);
+echo"<hr>"; 
+
+//------------------------------------------------------------
+
+function soma(int $f = 0, $g = 1){
+	return $f + $g;
+}
+
+echo soma("aaa" ,5);
+
+
+
+
